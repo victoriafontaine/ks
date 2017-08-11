@@ -1,0 +1,9 @@
+Aug 10 22:42:00 10.71.53.18 u89690508 Connection from 10.71.53.18 port 52176 on 66.175.239.34 port 22
+Aug 10 22:42:00 10.71.53.18 u89690508 Failed publickey for u89690508 from 10.71.53.18 port 52176 ssh2: RSA 97:93:58:7f:d5:70:87:22:26:f9:bf:3c:27:3c:6f:bf
+Aug 10 22:42:00 10.71.53.18 u89690508 Accepted password for u89690508 from 10.71.53.18 port 52176 ssh2
+Aug 10 22:42:54 10.71.53.18 u89690508 Connection from 10.71.53.18 port 17096 on 66.175.239.34 port 22
+Aug 10 22:42:55 10.71.53.18 u89690508 Failed publickey for u89690508 from 10.71.53.18 port 17096 ssh2: RSA 97:93:58:7f:d5:70:87:22:26:f9:bf:3c:27:3c:6f:bf
+Aug 10 22:42:54 10.71.53.18 u89690508 Connection from 10.71.53.18 port 17086 on 66.175.239.34 port 22
+Aug 10 22:42:55 10.71.53.18 u89690508 Failed publickey for u89690508 from 10.71.53.18 port 17086 ssh2: RSA 97:93:58:7f:d5:70:87:22:26:f9:bf:3c:27:3c:6f:bf
+Aug 10 22:42:55 10.71.53.18 u89690508 Accepted password for u89690508 from 10.71.53.18 port 17096 ssh2
+Aug 10 22:42:55 10.71.53.18 u89690508 Accepted password for u89690508 from 10.71.53.18 port 17086 ssh2

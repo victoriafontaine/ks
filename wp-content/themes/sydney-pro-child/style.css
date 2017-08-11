@@ -1,0 +1,772 @@
+/*
+Theme Name: Sydney Pro Child
+Theme URI: http://athemes.com/theme/sydney
+Author: aThemes
+Author URI: http://athemes.com
+Template: sydney-pro-ii
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sydney
+*/
+
+/**** 
+CUSTOM CSS BREAK OUT INTO MODULES
+******/
+
+h1,
+h2,
+h3,
+h4 {
+font-weight: 400;
+}
+.page-template .header-image {
+  display: none!important;
+}
+
+.widget-area .client-item {
+  display: block;
+  width: 100%;  
+  margin-top:15px;
+  margin-bottom: 15px;
+}
+
+
+.widget-area .sydney_clients_widget {
+  padding-top:30px;
+  padding-bottom: 30px; 
+  background-color: #f5f5f5;
+}
+
+.woocommerce .header-image,
+.blog .header-image,
+.single-post .header-image{
+  display: block!important;
+}
+
+.woocommerce #respond input#submit, 
+.woocommerce a.button, 
+.woocommerce button.button, 
+.woocommerce input.button {
+    background-color: #333;
+    border-radius: 0;
+    font-weight: 100;
+}
+
+.woocommerce #respond input#submit:hover, 
+.woocommerce a.button:hover, 
+.woocommerce button.button:hover, 
+.woocommerce input.button:hover {
+    background-color: #f46455;
+}
+
+.woocommerce ul.products li.product h2 {
+	padding: 0!important; 
+}
+
+.woocommerce ul.products li.product .button {
+    margin-top: 0!important;
+}
+
+/*COACH HEADER*/
+@media (max-width: 768px){
+.coach-header .sow-hero-default-7f7a8b466320 .sow-slider-base ul.sow-slider-images .sow-slider-image-wrapper {
+ padding: 100px 6% 100px 6%!important; 
+}
+}
+
+.press img{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+/*TRAINING SECTION*/
+.cert-list li,
+.cert-list ul {
+	margin: 0;
+ 	padding: 0;
+}
+
+@media (max-width: 768px){
+  .hidden-xs {
+  	display:none!important; 
+  }  
+}
+
+@media (min-width: 768px){
+  .visible-xs {
+  	display:none!important; 
+  }  
+
+}
+
+/*grid*/
+.press-filter .flat-light .esg-filterbutton {
+padding: 5px 5px;
+    display: block;
+    font-weight: 600;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.flat-dark .esg-navigationbutton {
+background: rgba(0,0,0,.6);
+}
+
+.esg-filter-wrapper {
+    display: block;
+}
+
+.press-filter {
+padding-left:5px;
+padding-right: 0;
+}
+
+.press-grid input.eg-search-input[type="text"] {
+    padding: 8px 55px 8px 15px;
+    width: 100%;
+    margin: 0 !important;
+}
+
+.press-grid .eg-search-wrapper {
+padding-left: 0;
+padding-right: 0;
+position: relative;
+display: block !important;
+text-align:left;
+margin-left: 0!important;
+margin-right: 0!mportant;
+}
+
+.press-grid  .eg-search-submit {
+position: absolute;
+right: 40px;
+top: 6px;
+font-size: 20px;
+
+}
+.press-grid  .eg-search-clean {
+position: absolute;
+float:right;
+top: 6px;
+right: 20px;
+}
+
+.press-grid {
+padding-right: 0;
+}
+
+/**ABOUT PAGE**/
+.about-title h1 {line-height: 47px!important;}
+
+
+/** REMOVE SPACING FROM FEATURE AREAS **/
+@media (max-width: 768px) {
+	.panel-grid-cell,
+	.full-mobile {
+		padding-right: 0!important;
+  		padding-left: 0!important;
+  		padding-bottom: 0!important;
+  		margin-bottom: 0!important;
+	}
+}
+
+#panel-115-0-0-0 .textwidget p {
+  display:none;
+}
+
+.team-beaut-btn .promo-wrap a {
+border-radius: 0;
+color: #fff;
+font-size: 20px;
+font-weight: 100;
+background-color: #203951;
+}
+
+
+.post-grid .grid-nav-top .nav-search {
+    display: block;
+    padding: 0;
+    text-align: center;
+    margin: 10px;
+}
+
+
+.sow-icon-fontawesome {
+ 	color:#ffffff!important; 
+}
+
+.post-grid .grid-nav-top .nav-search .search {
+  	background: rgb(255, 255, 255) url("search.png") no-repeat scroll 8px 12px !important;
+    border: 2px solid #45a2a5 !important;
+    padding: 10px 10px 10px 35px;
+	display: inline-block;
+  	height: unset!important;
+    vertical-align: center;
+    width: 90%;
+}
+
+/** CALL TO ACTION STYLES **/
+.action-call-dark h3.title{
+    font-family: "Roboto", sans-serif !important;
+	font-size: 30px !important;
+	text-align: center !important;
+  	text-transform: uppercase;
+  	font-weight: 100!important;
+}
+
+.action-call-dark.quote h3.title{
+    font-family: "Roboto", sans-serif !important;
+	font-size: 20px !important;
+	text-align: center !important;
+  	text-transform: uppercase;
+  	font-weight: 100!important;
+}
+
+
+.action-call-dark a {
+    font-family: "Roboto", sans-serif !important;
+	font-weight: 100;
+  	border-radius: 0;
+    font-size: 20px;
+}
+
+
+/**SPONSORSHIP GREYSCALE COLORS**/
+.grey-to-color img,
+.widget-area .client-item img{
+ -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+
+.grey-to-color img:hover,
+.widget-area .client-item img:hover{
+ -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+}
+
+img:hover {
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+/** STYLE NAVIGATION CALLOUT LINKS. The highlighted button must have css "callout" The link before the callout must have css "right" **/
+#mainnav {
+	text-transform: uppercase;
+}
+
+#mainnav li.callout {
+  	background-color: #f46455;
+	height: 52px;
+	position: absolute;
+	right: 0;
+	padding-top: 24px;
+	top: -23px;
+}
+
+#mainnav li.callout a {
+  color: black;
+}
+
+#mainnav li.callout a:hover {
+  color: white;
+}
+
+#mainnav li.callout .cta {
+display: block;
+text-align: center;
+margin-bottom: -7px;
+padding: 0;
+margin-top: -13px;
+font-size: 11px;
+}
+
+.float-header li.callout .cta {
+  margin-top: -5px !important;
+  margin-bottom: -9px !important;
+}
+
+
+#mainnav li.right {
+ 	margin-right: 96px;
+}
+
+@media only screen and (max-width: 990px){
+  #mainnav li.right {
+ 	margin-right: 116px;
+	}
+}
+
+
+/** CHANGE NAV BREAK POINT **/
+.site-header.float-header {
+ 	background-color: rgba( 0, 0, 0, 0.8)!important; 
+}
+
+.site-header {
+    background-color: transparent!important; 
+}
+
+@media only screen and (min-width: 801px){
+ .site-header.fixed {
+   position: fixed!important; 
+  }
+  #mainnav{
+    display: block !important;
+  }  
+  
+  .btn-menu{
+    display: none !important;
+  }
+}
+
+@media (max-width: 800px) {
+#masthead.site-header{
+	background-color: #000000!important;
+	position: static!important; 
+  padding: 10px 0;
+}
+
+.btn-menu {
+  margin: -4px auto 5px;
+}
+}
+
+@media only screen and (max-width: 1024px){
+  
+  .site-header{
+    position: absolute !important;
+  }  
+}  
+
+
+@media only screen and (min-width: 801px) and (max-width: 994px){
+  
+  .header-wrap > .container{
+    width: 800px;
+  }
+  
+  .header-wrap .col-md-4.col-sm-8.col-xs-12{
+    width: 30%;
+  }
+  
+  .header-wrap .col-md-8.col-sm-4.col-xs-12{
+    width: 70%;
+  }
+}  
+
+
+
+
+
+/*****
+LAYOUT
+*****/
+
+/* origin hero widget */
+.sow-slider-base ul.sow-slider-images li.sow-slider-image .sow-slider-image-wrapper > img{
+  width: unset;
+}
+
+.coach-header .sow-slider-base ul.sow-slider-images li.sow-slider-image.sow-slider-image-cover {
+  background-position: top center;
+  background-size: cover;
+}
+
+.home-padding .socrates-quote{
+  position:relative;
+  left: 10%;
+  top: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+  .home-padding .socrates-quote{
+    left: 0;
+    margin: 0 auto;
+    float: none;
+    top:0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+.hentry .title-post {
+    font-size: 32px!important;
+line-height:29px!important;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+}
+
+/*GALLERY*/
+.sow-masonry-grid-item {
+  overflow: hidden;
+}
+
+.sow-masonry-grid-item img{
+ -webkit-filter: grayscale(80%);
+ -moz-filter: grayscale(80%);
+ filter: grayscale(80%);
+ -moz-transition: all 0.3s;
+ -webkit-transition: all 0.3s;
+ transition: all 0.3s;
+
+}
+
+.sow-masonry-grid-item:hover img {
+   -webkit-filter: grayscale(0%);
+ -moz-filter: grayscale(0%);
+ filter: grayscale(0%);
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+
+
+/*TRAINING*/
+
+
+.coming-soon .promo-controls {
+  display: none!important;
+}
+
+.training-options h4 {
+  margin: 0;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: -4px;
+}
+
+@media only screen and (max-width: 768px) {
+  .home-padding .socrates-quote{
+    left: 0;
+    margin: 0 auto;
+    float: none;
+    top:0;
+  }
+
+  .crunchnbrunch {
+    text-align: center!important;
+  }
+}
+
+/*BLOG*/
+
+.hentry .title-post {
+font-size: 52px;
+padding: 0;
+margin: 0;
+text-transform: capitalize;
+line-height: 39px;
+text-align: center;
+}
+
+.content-area .img-wrapper {
+  padding: 6px;
+border: 1px solid #818181;
+
+width: 77%;
+margin: 0 auto;
+}
+
+.content-area .entry-thumb {
+  margin-bottom: 0;
+}
+
+.content-area article .entry-header {
+  margin-bottom: 0;
+position: relative;
+z-index: 9999;
+
+}
+
+.content-area article .entry-content {
+  font-size: 18px;
+text-align: center;
+}
+
+.entry-thumb.single-post {
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.archive .posts-layout .entry-header h2.title-post,
+.blog .posts-layout .entry-header h2.title-post {
+  margin-bottom: 5px!important;
+  text-transform: capitalize;
+  margin-top: 0;
+  font-size: 32px;
+}
+
+.post.row {
+  border-bottom: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+.archive article .entry-thumb,
+.blog article .entry-thumb {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.post-img {
+  padding-right: 0;
+}
+
+.archive  h1.archive-title {
+  margin: 0;
+  text-transform: uppercase;
+  opacity: .4;
+}
+
+
+.page-id-755 .sow-slider-base {
+  max-height: 300px;
+}
+
+
+/*WIDGET AREA*/
+
+.widget-area .widget {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.widget-area .widget_sow-image {
+  padding: 30px;
+}
+
+.widget-area .search-form label {
+  display: block;
+}
+
+.widget-area .search-form label input {
+  width: 100%;
+}
+
+.menu-sponsorship-filter-container li {
+  border-bottom: 1px solid #cccccc;
+}
+
+.menu-sponsorship-filter-container li a:hover{
+  font-weight: 700;
+  color: #d65050!important;
+}
+
+.widget-area .widget ul li:first-child,
+.widget-area .widget ul li:last-child {
+  padding: 5px 0;
+}
+
+/* gallery page*/
+.gallery-home .sow-slider-base ul.sow-slider-images li.sow-slider-image.sow-slider-image-cover {
+
+  background-position: 50% 30%;
+}
+
+/* post-grid */
+#raw-full-grid input.eg-search-input[type="text"] {
+  padding: 8px 65px 8px 15px;
+	width: 100%;
+background-color:#203951;
+color: #cccccc;
+font-weight: 100;
+font-size: 18px;
+margin: 0 !important;
+border: 0;
+}
+
+#raw-full-grid .eg-search-wrapper {
+padding-left: 0;
+padding-right: 0;
+position: relative;
+display: block !important;
+text-align:left;
+}
+
+#raw-full-grid .eg-search-submit {
+position: absolute;
+right: 40px;
+top: 6px;
+font-size: 20px;
+
+}
+#raw-full-grid .eg-search-clean {
+position: absolute;
+float:right;
+top: 6px;
+right: 20px;
+}
+
+#raw-full-grid .eg-search-wrapper {
+margin: 5px;
+margin-left: 0!important;
+margin-right: 0!important;
+}
+
+/**PRESS PAGE**/
+.page-template-page_press-page
+ .page-wrap .content-wrapper {
+padding-top: 0;
+padding-bottom: 0;
+background-color: transparent;
+}
+
+.page-template-page_press-page
+ .page-wrap {
+padding: 0;
+}
+
+.wp-video {
+margin: 0 auto;
+}
+
+.eg-cleveland-element-0 {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+
+/**SOCIAL WIDGET**/
+.widget_fp_social #menu-social-profile li {
+margin-left: 10px;
+margin-right: 10px;
+}
+
+
+.press_release-template-default .nav-links {
+display: none;
+}
+
+
+.team-rules h2 {
+display:block;
+ background-color: rgba(0, 0, 0, .55)!important;
+padding: 10px 40px;
+font-size: 32px!important;
+line-height:30px!important;
+margin-bottom:40px;
+}
+
+.team-rules h2.right {
+float: right;
+text-align:right;
+}
+
+.team-rules h2.left {
+float: left;
+text-align:left;
+}
+
+@media only screen and (max-width: 768px) {
+
+.team-rules h2.left,
+.team-rules h2.right {
+text-align:center;
+float: none;
+font-size:25px;
+position: relative;
+bottom:-100px;
+line-height: 26px!important;
+
+}
+}
+
+.upcoming .ig-vid,
+.upcoming .ig-img,
+.upcoming .entry-content .map  {
+display:none;
+}
+
+.upcoming.title-post {
+margin:0;
+color:#ffffff!important;
+}
+
+.upcoming {
+color: #ffffff;
+}
+
+.events-page {
+font-size: 20px;
+text-align: center;
+}
+
+.events-header {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.event-description {
+	margin-top: 20px;
+}
+.events-title {
+margin: 0;
+}
+
+.more-btn {
+display: inline-block;
+padding: 10px;
+border: 2px solid #264360;
+}
+
+.more-btn:hover {
+color: #ffffff;
+background-color: #264360;
+}
+
+.upcoming .entry-content {
+text-align: left!important;
+font-size: 18px;
+}
+
+.upcoming .header {
+margin-bottom: 20px;
+}
+
+.upcoming .more-btn {
+display: inline-block;
+padding: 10px;
+border: 2px solid #ffffff;
+color: #ffffff;
+}
+
+.upcoming .more-btn:hover {
+color: #264360;
+background-color: #ffffff;
+}
+
+@media only screen and (max-width: 768px) {
+.upcoming,
+.upcoming .entry-content,
+.upcoming .header  {
+text-align: center!important;
+}
+
+.upcoming .more-btn {
+width:80%;
+margin: 0 auto;
+}
+}

@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300);
+.so-widget-sow-button-flat-35c3576edb5c .ow-button-base {
+  zoom: 1;
+}
+.so-widget-sow-button-flat-35c3576edb5c .ow-button-base:before {
+  content: '';
+  display: block;
+}
+.so-widget-sow-button-flat-35c3576edb5c .ow-button-base:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.so-widget-sow-button-flat-35c3576edb5c .ow-button-base a {
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 90%;
+  font-family: Roboto Condensed;
+  font-weight: 300;
+  font-size: 1.15em;
+  padding: 1em 2em;
+  background: #818181;
+  color: #ffffff !important;
+  border: 1px solid #818181;
+  border-width: 1px 0;
+  -webkit-border-radius: 0em;
+  -moz-border-radius: 0em;
+  border-radius: 0em;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+}
+.so-widget-sow-button-flat-35c3576edb5c .ow-button-base a .sow-icon-image,
+.so-widget-sow-button-flat-35c3576edb5c .ow-button-base a [class^="sow-icon-"] {
+  margin: -0.1em 0.75em -0.2em -0.75em;
+}
+.so-widget-sow-button-flat-35c3576edb5c .ow-button-base a:visited,
+.so-widget-sow-button-flat-35c3576edb5c .ow-button-base a:active,
+.so-widget-sow-button-flat-35c3576edb5c .ow-button-base a:hover {
+  color: #ffffff !important;
+}
+.so-widget-sow-button-flat-35c3576edb5c .ow-button-base a.ow-button-hover:hover {
+  background: #8b8b8b;
+  border-bottom-color: #7e7e7e;
+  color: #ffffff;
+}

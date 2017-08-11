@@ -1,0 +1,1332 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the instagrate-pro package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#: includes/class-post-types.php:96
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: instagrate-pro\n"
+"Report-Msgid-Bugs-To: nom@deliciousbrains.com\n"
+"POT-Creation-Date: 2017-02-03 09:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: includes/admin/class-admin-pages.php:13
+#, php-format
+msgid "Moderate %s"
+msgstr ""
+
+#: includes/admin/class-admin-pages.php:40
+msgid "Intagrate Settings"
+msgstr ""
+
+#: includes/admin/class-admin-pages.php:54
+#: includes/admin/class-post-meta.php:468
+msgid "Save Changes"
+msgstr ""
+
+#: includes/admin/class-admin-pages.php:70
+msgid "Image Moderation"
+msgstr ""
+
+#: includes/admin/class-admin.php:33
+#: includes/class-licenses.php:49
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-image-moderation-table.php:68
+#: includes/admin/class-image-moderation-table.php:164
+msgid "Image"
+msgstr ""
+
+#: includes/admin/class-image-moderation-table.php:69
+msgid "Images"
+msgstr ""
+
+#: includes/admin/class-image-moderation-table.php:77
+msgid "Approve"
+msgstr ""
+
+#: includes/admin/class-image-moderation-table.php:78
+#: includes/admin/class-post-meta.php:456
+#: includes/class-accounts.php:45
+#: includes/class-accounts.php:54
+msgid "Ignore"
+msgstr ""
+
+#: includes/admin/class-image-moderation-table.php:165
+msgid "Caption"
+msgstr ""
+
+#: includes/admin/class-image-moderation-table.php:166
+msgid "Account"
+msgstr ""
+
+#: includes/admin/class-image-moderation-table.php:167
+#: includes/class-post-types.php:153
+msgid "User"
+msgstr ""
+
+#: includes/admin/class-image-moderation-table.php:168
+msgid "Tags"
+msgstr ""
+
+#: includes/admin/class-notices.php:14
+#: includes/admin/class-notices.php:33
+msgid "Account duplicated"
+msgstr ""
+
+#: includes/admin/class-notices.php:15
+#: includes/admin/class-notices.php:39
+msgid "Likes have been synced for this account successfully"
+msgstr ""
+
+#: includes/admin/class-notices.php:16
+msgid "You must select a page to display your posts in"
+msgstr ""
+
+#: includes/admin/class-notices.php:17
+#: includes/admin/class-notices.php:68
+msgid ""
+"Debug mode is turned on. However, the debug file in the plugin folder is not "
+"writeable. Please contact your web hosting provider to amend the permissions "
+"on the"
+msgstr ""
+
+#: includes/admin/class-notices.php:45
+msgid "Comments have been synced for this account successfully"
+msgstr ""
+
+#: includes/admin/class-notices.php:51
+msgid "Settings -> Reading"
+msgstr ""
+
+#: includes/admin/class-notices.php:54
+msgid "You must select a page to display your posts in "
+msgstr ""
+
+#: includes/admin/class-notices.php:65
+msgid "file"
+msgstr ""
+
+#: includes/admin/class-notices.php:89
+msgid ""
+"You must save the draft of this account before authorising with Instagram"
+msgstr ""
+
+#: includes/admin/class-notices.php:97
+#, php-format
+msgid ""
+"%sSafe mode%s is enabled on your server, so the PHP time and memory limits "
+"cannot be set by this plugin.\n"
+"\t\t\t\t\t\t\t\t\t\t\t\tYour time limit is %s seconds and your memory limit "
+"is %s, so if your accounts are posting lots of images at a time and saving "
+"them to the WordPress Media Library this may exceed the execution time. Each "
+"host has different methods available to increase these settings and a quick "
+"Google search should\n"
+"\t\t\t\t\t\t\t\t\t\t\t\tyield some information. If not, please contact your "
+"host for help.\n"
+"\t\t\t\t\t\t\t\t\t\t\t\tIf you cannot find an answer, please feel free to "
+"post a new topic."
+msgstr ""
+
+#: includes/admin/class-post-meta.php:37
+msgid "Instagram Settings"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:50
+#: includes/class-post-types.php:199
+msgid "Instagram Media"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:63
+#: includes/admin/class-post-meta.php:896
+msgid "Template Tags"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:76
+msgid "Posting Settings"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:88
+msgid "Post Settings"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:101
+msgid "Map Settings"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:115
+#: includes/admin/igp-settings.php:241
+msgid "Useful Links"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:131
+msgid "Custom Featured Image"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:138
+msgid "Custom Fields For Template Tags"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:145
+msgid "Default Tags"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:153
+msgid ""
+"You can make an Instagram image the featured image by using the setting in "
+"the Post Settings box."
+msgstr ""
+
+#: includes/admin/class-post-meta.php:154
+msgid ""
+"Setting a featured image here will override that setting and always set the "
+"featured image as this image."
+msgstr ""
+
+#: includes/admin/class-post-meta.php:155
+msgid "featured image"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:155
+msgid "custom featured image"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:167
+#: includes/admin/class-post-meta.php:174
+msgid "Login to Instagram"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:190
+msgid "Disconnect"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:191
+msgid "Reconnect"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:198
+msgid "Media Stream"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:204
+msgid "My Recent Media"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:205
+msgid "Users Media"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:206
+msgid "All Hashtagged Media"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:207
+msgid "Location Media"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:210
+msgid "My Feed (Deprecated)"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:234
+msgid "Users Name"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:241
+msgid "Location Name"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:249
+msgid "Instagram Location"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:265
+msgid "Hashtags Filter"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:271
+msgid "Media Filter"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:275
+msgid "Images and Videos"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:276
+msgid "Only Images"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:277
+msgid "Only Videos"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:311
+msgid ""
+"You will need to connect an Instagram account from the Instagram settings"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:329
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:346
+msgid "No images found"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:349
+msgid "Load More"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:354
+msgid "All Media"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:364
+msgid "Edit Details"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:434
+msgid "Image to edit"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:437
+msgid "Caption (without Tags)"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:445
+#: includes/admin/class-post-meta.php:773
+#: includes/class-post-types.php:104
+msgid "Status"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:451
+msgid "Change Status"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:454
+#: includes/class-helper.php:114
+#: includes/class-helper.php:137
+#: includes/class-helper.php:162
+#: includes/class-instagram.php:272
+msgid "Select"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:455
+#: includes/class-accounts.php:43
+#: includes/class-accounts.php:50
+msgid "Pending"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:461
+msgid "Hashtags"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:483
+#: includes/class-post-types.php:99
+msgid "Frequency"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:487
+msgid "Constant"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:488
+msgid "Scheduled"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:489
+#: includes/admin/igp-settings.php:114
+msgid "Cron Job"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:490
+msgid "Manual"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:502
+msgid "Schedule"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:520
+#: includes/class-post-types.php:171
+msgid "Next"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:529
+msgid "Day"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:534
+msgid "Monday"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:535
+msgid "Tuesday"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:536
+msgid "Wednesday"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:537
+msgid "Thursday"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:538
+msgid "Friday"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:539
+msgid "Saturday"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:540
+msgid "Sunday"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:547
+#: includes/class-scheduler.php:152
+msgid "Daily"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:553
+msgid "Time"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:595
+msgid "You can only manually post images for a published account.\t"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:610
+msgid "Moderate Images"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:614
+msgid "Post Type"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:631
+#: includes/class-post-types.php:100
+msgid "Multiple Media"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:635
+msgid "Per Media"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:636
+#: includes/class-post-types.php:182
+msgid "Media Grouped"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:637
+#: includes/class-post-types.php:192
+msgid "Same"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:644
+msgid "Select "
+msgstr ""
+
+#: includes/admin/class-post-meta.php:653
+msgid "Media Location"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:657
+msgid "Top"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:658
+msgid "Bottom"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:659
+msgid "Specific"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:666
+msgid "Media Ordering"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:670
+msgid "Oldest at Top"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:671
+msgid "Newest at Top"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:678
+msgid "Multi Map"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:682
+msgid "No multi map"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:683
+msgid "Map at bottom"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:684
+msgid "Map at top"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:701
+msgid "Save Instagram Media to Media Library"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:709
+msgid "Featured Image"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:717
+#: includes/class-post-types.php:224
+msgid "Taxonomy"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:751
+msgid "Convert Media Hashtags to"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:760
+msgid "Author"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:777
+msgid "Publish"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:778
+msgid "Draft"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:779
+msgid "Pending Review"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:780
+msgid "Private"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:787
+msgid "Format"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:792
+msgid "Standard"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:805
+msgid "Use Instagram Date"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:823
+msgid "Style"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:827
+msgid "Road"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:828
+msgid "Hybrid"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:829
+msgid "Satellite"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:830
+msgid "Terrain"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:837
+msgid "CSS Class"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:843
+msgid "Width"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:848
+msgid "px"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:849
+msgid "%"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:856
+msgid "Height"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:865
+msgid "Zoom Level"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:876
+msgid ""
+"You can use the following template tags in the title, content, excerpt and "
+"custom field values:"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:880
+msgid "Not available for "
+msgstr ""
+
+#: includes/admin/class-post-meta.php:888
+#, php-format
+msgid ""
+"You can also run these through filters for each. The filter name is in the "
+"format igp_template_[tag] where tag has underscores not hypens, <br>e.g. "
+"%%location-name%% can be filtered with 'igp_template_location_name')"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:895
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:895
+msgid "get help on what settings mean and how to use them"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:896
+msgid "get some simple examples of using template tags for the custom content"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:897
+msgid "Support"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:897
+msgid "get support for the plugin"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:898
+msgid "Changelog"
+msgstr ""
+
+#: includes/admin/class-post-meta.php:898
+msgid "read the plugin's changelog"
+msgstr ""
+
+#: includes/admin/igp-settings.php:13
+msgid "Default Title"
+msgstr ""
+
+#: includes/admin/igp-settings.php:14
+msgid "Enter a title for posts where the Instagram image has no title."
+msgstr ""
+
+#: includes/admin/igp-settings.php:20
+msgid "Title Length Type"
+msgstr ""
+
+#: includes/admin/igp-settings.php:21
+msgid "Set type of length limit."
+msgstr ""
+
+#: includes/admin/igp-settings.php:28
+msgid "Title Length Limit"
+msgstr ""
+
+#: includes/admin/igp-settings.php:29
+msgid ""
+"Enter a number of characters/words to limit the title length. Leave blank "
+"for no limit."
+msgstr ""
+
+#: includes/admin/igp-settings.php:35
+msgid "Bypass is_home()"
+msgstr ""
+
+#: includes/admin/igp-settings.php:36
+msgid ""
+"Bypass is_home() check on posting. This should only be used if really "
+"necessary as it will make the plugin run on every page load."
+msgstr ""
+
+#: includes/admin/igp-settings.php:42
+msgid "Allow Duplicate Images"
+msgstr ""
+
+#: includes/admin/igp-settings.php:43
+msgid "Allow posting of same image by different accounts"
+msgstr ""
+
+#: includes/admin/igp-settings.php:49
+msgid "High Resolution Images"
+msgstr ""
+
+#: includes/admin/igp-settings.php:50
+msgid ""
+"The Instagram API exposes images at 640x640px, but images are available at "
+"1080x1080. Turning this on will use the higer res images but images may "
+"break as this is a bleeding edge feature."
+msgstr ""
+
+#: includes/admin/igp-settings.php:56
+msgid "Instagram Location Distance"
+msgstr ""
+
+#: includes/admin/igp-settings.php:57
+msgid ""
+"Set the distance in metres of the location searching of Instagram locations."
+msgstr ""
+
+#: includes/admin/igp-settings.php:64
+msgid "Images in Account Admin"
+msgstr ""
+
+#: includes/admin/igp-settings.php:65
+msgid ""
+"Set amount of images to show when the account is edited. This helps "
+"performance for accounts with a large number of images."
+msgstr ""
+
+#: includes/admin/igp-settings.php:72
+msgid "Image Name as Instagram ID"
+msgstr ""
+
+#: includes/admin/igp-settings.php:73
+msgid ""
+"When saving the images to the media library the filename will be the "
+"caption. However, by checking this box it will save the images with the "
+"Instagram image ID as the filename e.g. c6077c14fe0a11e2b55e22000a9f09fb_7."
+"jpg. This avoids any issues with non standard characters in the filename "
+"which can lead to the images not being displayed."
+msgstr ""
+
+#: includes/admin/igp-settings.php:79
+msgid "Add Caption to Saved Image"
+msgstr ""
+
+#: includes/admin/igp-settings.php:80
+#, php-format
+msgid ""
+"When saving images to the media library this will add the \"Caption\" based "
+"on the above text allowing tags (eg. %%caption%% or %%caption-no-tags%%). "
+"Also runs through a filter \"igp_image_caption\". Leave blank for no caption."
+msgstr ""
+
+#: includes/admin/igp-settings.php:86
+msgid "Lightbox Custom Rel"
+msgstr ""
+
+#: includes/admin/igp-settings.php:87
+msgid ""
+"Enter a custom rel attribute for thumbnails on multi maps to tie in with "
+"your lightbox plugin of choice."
+msgstr ""
+
+#: includes/admin/igp-settings.php:93
+msgid "Hide Meta Boxes"
+msgstr ""
+
+#: includes/admin/igp-settings.php:94
+msgid "Hide meta boxes on the edit account page."
+msgstr ""
+
+#: includes/admin/igp-settings.php:107
+msgid "Link Love"
+msgstr ""
+
+#: includes/admin/igp-settings.php:108
+msgid ""
+"Check this to enable a credit link to the plugin page after images posted."
+msgstr ""
+
+#: includes/admin/igp-settings.php:130
+msgid "Enable Comments"
+msgstr ""
+
+#: includes/admin/igp-settings.php:131
+msgid ""
+"Enables Instagram comments imported as WordPress comments. <br><em>Only "
+"works if posts are created for each image, ie. the Multiple Images setting "
+"is set to \"Post Per Image\"</em>"
+msgstr ""
+
+#: includes/admin/igp-settings.php:137
+msgid "Automatically Approve Comments"
+msgstr ""
+
+#: includes/admin/igp-settings.php:138
+msgid ""
+"Enables the comments to be automatically approved in WordPress when imported "
+"from Instagram."
+msgstr ""
+
+#: includes/admin/igp-settings.php:144
+msgid "Instagram Avatar"
+msgstr ""
+
+#: includes/admin/igp-settings.php:145
+msgid ""
+"Enables the use of the Instagram user's profile image as the comment author "
+"avatar image."
+msgstr ""
+
+#: includes/admin/igp-settings.php:151
+msgid "Username Mentions"
+msgstr ""
+
+#: includes/admin/igp-settings.php:152
+msgid ""
+"Makes all mentions of an Instagram username in a comment into a link to "
+"their profile page on Instagram."
+msgstr ""
+
+#: includes/admin/igp-settings.php:158
+msgid "Likes"
+msgstr ""
+
+#: includes/admin/igp-settings.php:161
+#, php-format
+msgid ""
+"You can use the template tag %%likes%%, the shortcode [igp-likes], or the "
+"custom post meta 'ig_likes' to display the Like count from Instagram."
+msgstr ""
+
+#: includes/admin/igp-settings.php:165
+msgid "Syncing"
+msgstr ""
+
+#: includes/admin/igp-settings.php:168
+msgid ""
+"You can synchronise the comments and likes from Instagram for a specific "
+"account by clicking on the buttons on the "
+msgstr ""
+
+#: includes/admin/igp-settings.php:169
+msgid ""
+"You can also set up a UNIX Cron job on your server to synchronise all "
+"comments and likes at a certain time interval, using the this url:"
+msgstr ""
+
+#: includes/admin/igp-settings.php:182
+msgid "Use Custom Instagram API Client"
+msgstr ""
+
+#: includes/admin/igp-settings.php:183
+msgid "Connect the plugin with your own Instagram API client. Register it here"
+msgstr ""
+
+#: includes/admin/igp-settings.php:189
+msgid "Client ID"
+msgstr ""
+
+#: includes/admin/igp-settings.php:190
+msgid "Enter the Client ID once you have registered your client"
+msgstr ""
+
+#: includes/admin/igp-settings.php:196
+msgid "Client Secret"
+msgstr ""
+
+#: includes/admin/igp-settings.php:197
+msgid "Enter the Client Secret once you have registered your client"
+msgstr ""
+
+#: includes/admin/igp-settings.php:203
+msgid "Redirect URI"
+msgstr ""
+
+#: includes/admin/igp-settings.php:206
+msgid ""
+"When registering your Instagram API client use this as your Redirect URI:<br>"
+msgstr ""
+
+#: includes/admin/igp-settings.php:220
+msgid "Intagrate License"
+msgstr ""
+
+#: includes/admin/igp-settings.php:226
+msgid "Debug Mode"
+msgstr ""
+
+#: includes/admin/igp-settings.php:227
+msgid ""
+"Check this to enable debug mode for troubleshooting the plugin. The file "
+"debug.txt will be created in the plugin folder"
+msgstr ""
+
+#: includes/admin/igp-settings.php:233
+msgid "Download Install Data"
+msgstr ""
+
+#: includes/admin/igp-settings.php:236
+msgid ""
+"If you have raised an issue with us please download and attach the install "
+"data (and <a href=\""
+msgstr ""
+
+#: includes/admin/igp-settings.php:237
+msgid "Download Data"
+msgstr ""
+
+#: includes/admin/wp-settings-framework.php:300
+msgid "Active: "
+msgstr ""
+
+#: includes/admin/wp-settings-framework.php:302
+msgid "Deactivate License"
+msgstr ""
+
+#: includes/admin/wp-settings-framework.php:308
+msgid "Activate this license to enable automatic upgrades"
+msgstr ""
+
+#: includes/admin/wp-settings-framework.php:311
+msgid "Enter a valid license key to enable automatic upgrades"
+msgstr ""
+
+#: includes/admin/wp-settings-framework.php:313
+msgid "Activate License"
+msgstr ""
+
+#: includes/admin/wp-settings-framework.php:335
+msgid "Save All Changes"
+msgstr ""
+
+#: includes/class-accounts.php:44
+#: includes/class-accounts.php:52
+msgid "Posted"
+msgstr ""
+
+#: includes/class-accounts.php:46
+#: includes/class-accounts.php:51
+msgid "Posting"
+msgstr ""
+
+#: includes/class-accounts.php:47
+#: includes/class-accounts.php:53
+msgid "Awaiting Moderation"
+msgstr ""
+
+#: includes/class-debug.php:251
+#: includes/class-debug.php:263
+msgid "There was an error sending your email using wp_mail()"
+msgstr ""
+
+#: includes/class-debug.php:267
+msgid ""
+"Install data sent successfully. Please make sure you have raised an issue on "
+"the Support Forum. Without knowing the issue this file isn't much help on "
+"its own and will not be responded too."
+msgstr ""
+
+#: includes/class-helper.php:504
+msgid "UNIX Cron job"
+msgstr ""
+
+#: includes/class-helper.php:514
+#, php-format
+msgid ""
+"You can set up a %s on your server to post images from accounts with the "
+"Posting Frequency of Cron Job  using the this url:"
+msgstr ""
+
+#: includes/class-instagram.php:47
+msgid "Error attempting API check:"
+msgstr ""
+
+#: includes/class-instagram.php:51
+msgid "Error: Instagram API Servers Down"
+msgstr ""
+
+#: includes/class-instagram.php:251
+msgid "Enter Location"
+msgstr ""
+
+#: includes/class-instagram.php:255
+msgid "No Locations Found"
+msgstr ""
+
+#: includes/class-post-types.php:20
+msgctxt "post type general name"
+msgid "Intagrate Accounts"
+msgstr ""
+
+#: includes/class-post-types.php:21
+msgctxt "post type singular name"
+msgid "Account"
+msgstr ""
+
+#: includes/class-post-types.php:22
+msgid "Add Account"
+msgstr ""
+
+#: includes/class-post-types.php:23
+msgid "All Accounts"
+msgstr ""
+
+#: includes/class-post-types.php:24
+msgid "Add New Account"
+msgstr ""
+
+#: includes/class-post-types.php:25
+msgid "Edit Account"
+msgstr ""
+
+#: includes/class-post-types.php:26
+msgid "New Account"
+msgstr ""
+
+#: includes/class-post-types.php:27
+msgid "View Account"
+msgstr ""
+
+#: includes/class-post-types.php:28
+msgid "Search Accounts"
+msgstr ""
+
+#: includes/class-post-types.php:29
+msgid "No Accounts found"
+msgstr ""
+
+#: includes/class-post-types.php:30
+msgid "No Accounts found in Trash"
+msgstr ""
+
+#: includes/class-post-types.php:67
+#: includes/class-post-types.php:70
+msgid "Account updated."
+msgstr ""
+
+#: includes/class-post-types.php:68
+msgid "Custom field updated."
+msgstr ""
+
+#: includes/class-post-types.php:69
+msgid "Custom field deleted."
+msgstr ""
+
+#: includes/class-post-types.php:71
+#, php-format
+msgid "Account restored to revision from %s"
+msgstr ""
+
+#: includes/class-post-types.php:72
+msgid "Account published."
+msgstr ""
+
+#: includes/class-post-types.php:73
+msgid "Account saved."
+msgstr ""
+
+#: includes/class-post-types.php:74
+msgid "Account submitted."
+msgstr ""
+
+#: includes/class-post-types.php:76
+#, php-format
+msgid ""
+"Account scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview Account</a>"
+msgstr ""
+
+#: includes/class-post-types.php:77
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: includes/class-post-types.php:79
+msgid "Account draft updated."
+msgstr ""
+
+#: includes/class-post-types.php:80
+msgid "Instagram account connected."
+msgstr ""
+
+#: includes/class-post-types.php:81
+msgid "Instagram account disconnected."
+msgstr ""
+
+#: includes/class-post-types.php:82
+msgid "You did not authorise your Instagram account with this plugin."
+msgstr ""
+
+#: includes/class-post-types.php:83
+msgid "Account duplicated."
+msgstr ""
+
+#: includes/class-post-types.php:84
+msgid "Likes have been synced for this account successfully."
+msgstr ""
+
+#: includes/class-post-types.php:85
+msgid "Comments have been synced for this account successfully."
+msgstr ""
+
+#: includes/class-post-types.php:97
+msgid "Profile"
+msgstr ""
+
+#: includes/class-post-types.php:98
+msgid "Media"
+msgstr ""
+
+#: includes/class-post-types.php:101
+msgid "Type"
+msgstr ""
+
+#: includes/class-post-types.php:102
+msgid "Media Saving"
+msgstr ""
+
+#: includes/class-post-types.php:103
+msgid "Classification"
+msgstr ""
+
+#: includes/class-post-types.php:105
+msgid "Custom Title"
+msgstr ""
+
+#: includes/class-post-types.php:106
+msgid "Actions"
+msgstr ""
+
+#: includes/class-post-types.php:149
+msgid "Not configured"
+msgstr ""
+
+#: includes/class-post-types.php:151
+msgid " Media"
+msgstr ""
+
+#: includes/class-post-types.php:161
+msgid "Filter"
+msgstr ""
+
+#: includes/class-post-types.php:179
+msgid "Post Per Media"
+msgstr ""
+
+#: includes/class-post-types.php:199
+msgid "Media Library"
+msgstr ""
+
+#: includes/class-post-types.php:224
+msgid "Terms"
+msgstr ""
+
+#: includes/class-post-types.php:226
+msgid "None"
+msgstr ""
+
+#: includes/class-post-types.php:266
+msgid "here"
+msgstr ""
+
+#: includes/class-post-types.php:268
+msgid "You can find examples of template tag usage"
+msgstr ""
+
+#: includes/class-post-types.php:275
+msgid "Enter your custom title"
+msgstr ""
+
+#: includes/class-post-types.php:275
+msgid "for just the Instagram image caption"
+msgstr ""
+
+#: includes/class-scheduler.php:144
+msgid "Hourly"
+msgstr ""
+
+#: includes/class-scheduler.php:148
+msgid "Twice Daily"
+msgstr ""
+
+#: includes/class-scheduler.php:156
+msgid "Weekly"
+msgstr ""
+
+#: includes/class-scheduler.php:160
+msgid "Fortnightly"
+msgstr ""
+
+#: includes/class-scheduler.php:164
+msgid "Monthly"
+msgstr ""
+
+#: includes/class-template-tags.php:66
+msgid ""
+"The image url, either direct from Instagram or from the WP media library."
+msgstr ""
+
+#: includes/class-template-tags.php:72
+msgid ""
+"The video url, either direct from Instagram or from the WP media library."
+msgstr ""
+
+#: includes/class-template-tags.php:78
+msgid "The image caption from Instagram including tags."
+msgstr ""
+
+#: includes/class-template-tags.php:84
+msgid ""
+"The image caption from Instagram including tags, escaped for use in HTML "
+"attributes like title and alt."
+msgstr ""
+
+#: includes/class-template-tags.php:90
+msgid "The image caption from Instagram including tags without the #."
+msgstr ""
+
+#: includes/class-template-tags.php:96
+msgid ""
+"The image caption from Instagram including tags without the #, escaped for "
+"use in HTML attributes like title and alt."
+msgstr ""
+
+#: includes/class-template-tags.php:102
+msgid "The image caption from Instagram excluding tags."
+msgstr ""
+
+#: includes/class-template-tags.php:108
+msgid ""
+"The image caption from Instagram excluding tags, escaped for use in HTML "
+"attributes like title and alt."
+msgstr ""
+
+#: includes/class-template-tags.php:114
+msgid "The image caption from Instagram excluding username mentions."
+msgstr ""
+
+#: includes/class-template-tags.php:120
+msgid ""
+"The image caption from Instagram excluding username mentions, escaped for "
+"use in HTML attributes like title and alt."
+msgstr ""
+
+#: includes/class-template-tags.php:126
+msgid "The image caption from Instagram excluding tags and username mentions."
+msgstr ""
+
+#: includes/class-template-tags.php:132
+msgid ""
+"The image caption from Instagram excluding tags and username mentions, "
+"escaped for use in HTML attributes like title and alt."
+msgstr ""
+
+#: includes/class-template-tags.php:138
+msgid "The image tags from Instagram"
+msgstr ""
+
+#: includes/class-template-tags.php:144
+msgid "The first image tag from Instagram"
+msgstr ""
+
+#: includes/class-template-tags.php:150
+msgid "The username of who posted the image on Instagram."
+msgstr ""
+
+#: includes/class-template-tags.php:156
+msgid "The link to the Instagram profile of who posted the image."
+msgstr ""
+
+#: includes/class-template-tags.php:162
+msgid "The link to the Instagram profile image of who posted the image."
+msgstr ""
+
+#: includes/class-template-tags.php:168
+msgid "The type of Instagram media, i.e. image or video."
+msgstr ""
+
+#: includes/class-template-tags.php:174
+msgid "The ID of the Instagram media"
+msgstr ""
+
+#: includes/class-template-tags.php:180
+msgid "The link to the Instagram media page."
+msgstr ""
+
+#: includes/class-template-tags.php:186
+msgid "The link to the Instagram image."
+msgstr ""
+
+#: includes/class-template-tags.php:192
+msgid "The link to the Instagram video."
+msgstr ""
+
+#: includes/class-template-tags.php:198
+msgid "The Instagram embed link for images and videos."
+msgstr ""
+
+#: includes/class-template-tags.php:204
+msgid "The link to the image if saved in the WP media library."
+msgstr ""
+
+#: includes/class-template-tags.php:210
+msgid "The link to the video if saved in the WP media library."
+msgstr ""
+
+#: includes/class-template-tags.php:216
+msgid "The link to the post created in WP."
+msgstr ""
+
+#: includes/class-template-tags.php:222
+msgid ""
+"A gallery of all images that have been saved to the WP media library for the "
+"post."
+msgstr ""
+
+#: includes/class-template-tags.php:228
+msgid "A Google map of the location of a geo tagged image."
+msgstr ""
+
+#: includes/class-template-tags.php:234
+msgid "The name of the location of a geo tagged image."
+msgstr ""
+
+#: includes/class-template-tags.php:240
+msgid "The latitude of the location of a geo tagged image."
+msgstr ""
+
+#: includes/class-template-tags.php:246
+msgid "The longitude of the location of a geo tagged image."
+msgstr ""
+
+#: includes/class-template-tags.php:252
+msgid "The date the image was taken on Instagram."
+msgstr ""
+
+#: includes/class-template-tags.php:258
+msgid "The Instagram filter used on the image."
+msgstr ""
+
+#: includes/class-template-tags.php:264
+msgid "The Instagram Likes count for the image."
+msgstr ""
+
+#: includes/class-template-tags.php:270
+msgid ""
+"WordPress image class to enable responsive images if saved in the WP media "
+"library."
+msgstr ""
+
+#: includes/wp-sellwire-plugin.php:101
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#: includes/wp-sellwire-plugin.php:105
+msgid "An unknown error occurred"
+msgstr ""
+
+#: instagrate-pro.php:232
+#: instagrate-pro.php:244
+msgid "Cheatin&#8217; huh?"
+msgstr ""
